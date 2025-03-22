@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    margin: auto;
+    background-color: gold;
+    height: 65px;
+    color: red;
+    justify-content: left;
+    width: 1364px;
+    align-items: center;
+    text-align: center;
+    padding: 40px 60px 30px 110px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex ;
+}
+
+#logo{
+    padding-right: 40px;
+}
+
+
+#main {
+    font-size: larger;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    width: 1200px;
+    height: 570px;
+    align-items:normal;
+    justify-content:left;
+    text-align:left;
+    text-size-adjust: 17px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.inner1 {
+    border: 2px solid black;
+    padding: 15px 20px 18px 30px;
+    width: 350px;
+    display: inline;
+    margin: 130px 33px 30px 30px;
+    margin-top: 130px;
+    border-radius: 30px;
+}
+
+.inner2 {
+    border: 2px solid black;
+    padding: 15px 30px 18px 30px;
+    width: 400px;
+    display: inline;
+    margin: 130px 33px 40px 30px;
+    margin-top: 130px;
+    border-radius: 30px;
+}
+
+.inner3 {
+    border: 2px solid black;
+    padding: 15px 125px 15px 40px;
+    width: 250px;
+    display: inline;
+    margin: 130px 33px 30px 50px;
+    margin-top: 130px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+.inner4 {
+    border: 2px solid black;
+    padding: 15px 0px 15px 30px;
+    width: 10px;
+    display: inline;
+    margin: 13px 0px 30px px;
+    margin-top: 130px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+
+h3 {
+    display: inline;
+    margin-right: 10px;
+}
+
+input {
+    border-radius: 30px;
+    height: 25px;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+#role {
+    align-items: normal;
+    justify-content: flex-start;
+    text-align:unset;
+    padding-left: 150px;
+    text-align: justify;
+    border-radius: 100px;
+
+}
+
+.submit_button {
+    height: 40px;
+    margin: 10px 10px 20px 10px;
+    background-color: deepskyblue;
+    border: 2px solid deepskyblue;
+    border-radius: 50px;
+    color: white;
+    padding: 0px 30px;
+    font-size: 20px;
+    margin-left: 550px;
+}
